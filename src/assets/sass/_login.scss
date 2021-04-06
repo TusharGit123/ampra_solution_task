@@ -1,0 +1,117 @@
+
+/****************************
+          Login css
+******************************/
+.main_login{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    // background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' %3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%2380F'/%3E%3Cstop offset='1' stop-color='%23f40'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpattern id='b' width='24' height='24' patternUnits='userSpaceOnUse'%3E%3Ccircle fill='%23ffffff' cx='12' cy='12' r='12'/%3E%3C/pattern%3E%3Crect width='100%25' height='100%25' fill='url(%23a)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23b)' fill-opacity='0.1'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+    .login{
+      width: 30%;
+      height: 60%;  
+      text-align: center;
+      background-color: rgba(0,0,255,0.6,);
+      box-shadow: 1px 1px 3px 1px #000;
+      border-radius: 10px;
+    
+
+      h2{
+        color: rgb(255, 255, 255);
+          margin: 60px;
+      }
+
+      input{
+        width: 80%;
+        height: 40px;
+        border-radius: 20px;
+        padding-left: 20px;
+        // margin-bottom: 15px;
+        border:none
+    }
+
+    input:focus{
+        outline:none;
+        box-shadow: none;
+    }
+
+    button{
+        width: 80%;
+        height: 45%;
+        color: white;
+        padding:10px;
+        border-radius: 20px;
+        background-color: rgba(255,0,0,1,);
+        cursor: pointer;
+        border: none;
+    }
+    
+    button:focus {
+        outline: none;
+        box-shadow: none;
+      }
+    
+    }
+
+}
+
+/****************************
+          Admin css
+******************************/
+.main_admin{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+
+.logout-button{
+
+    padding: 10px;
+    color: #fff;
+    background-color:  rgba(255,0,0,1,);    
+    border-radius: 20px;
+    border: none;
+   
+    }
+    .logout-button:focus{
+        outline: none;
+        box-shadow: none;
+    }
+}      
+
+/****************************
+          LogOut css
+******************************/
+.main_logout{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    .login-again-button{
+
+        padding: 10px;
+        color: #fff;
+        background-color:  rgba(255,0,0,1,);    
+        border-radius: 20px;
+        border: none;
+       
+        }
+        .login-again-button:focus{
+            outline: none;
+            box-shadow: none;
+        }
+   }
